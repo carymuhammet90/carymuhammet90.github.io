@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="tk">
+<!DOCTYPE html><html lang="tk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Çarymuhammet | Kitaplar we Taryh</title>
-
-  <style>
+  <title>Çarymuhammet | Kitaplar we Taryh</title>  <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -43,6 +40,10 @@
       font-weight: bold;
     }
 
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     main {
       max-width: 1000px;
       margin: 30px auto;
@@ -67,10 +68,28 @@
       padding: 20px;
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: 0.2s;
+    }
+
+    .book:hover {
+      transform: translateY(-3px);
     }
 
     .book h3 {
       color: #176b3a;
+      margin-top: 0;
+    }
+
+    .book a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #176b3a;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .book a:hover {
+      text-decoration: underline;
     }
 
     footer {
@@ -80,59 +99,47 @@
       text-align: center;
       padding: 20px;
     }
-  </style>
-</head>
-
-<body>
-
-  <header>
+  </style></head><body>  <header>
     <h1>Çarymuhammet</h1>
     <p>Kitaplar • Taryh • Makalalar</p>
-  </header>
+  </header>  <nav>
+    <a href="index.html">Baş sahypa</a>
+    <a href="kitaplar.html">Kitaplar</a>
+    <a href="taryh.html">Taryh</a>
+    <a href="makalalar.html">Makalalar</a>
+  </nav>  <main><section class="welcome">
+  <h2>Hoş geldiňiz!</h2>
+  <p>
+    Bu saýtda kitaplar, taryhy şahslar, türkmen taryhy
+    we dürli gyzykly makalalar ýerleşdiriler.
+  </p>
+</section>
 
-  <nav>
-    <a href="#">Baş sahypa</a>
-    <a href="#">Kitaplar</a>
-    <a href="#">Taryh</a>
-    <a href="#">Makalalar</a>
-  </nav>
+<h2>Soňky goşulan kitaplar</h2>
 
-  <main>
+<section class="books">
 
-    <section class="welcome">
-      <h2>Hoş geldiňiz!</h2>
-      <p>
-        Bu saýtda kitaplar, taryhy şahslar, türkmen taryhy
-        we dürli gyzykly makalalar ýerleşdiriler.
-      </p>
-    </section>
+  <div class="book">
+    <h3>Teke han kim bolupdyr?</h3>
+    <p>Juma Hudaýgulyýewiň taryhy oçerki.</p>
+    <a href="teke-han.html">Kitaby gör →</a>
+  </div>
 
-    <h2>Soňky goşulan kitaplar</h2>
+  <div class="book">
+    <h3>Gaýgysyz Atabaý</h3>
+    <p>Türkmen taryhyna degişli eser.</p>
+    <a href="gaigysyz-atabay.html">Kitaby gör →</a>
+  </div>
 
-    <section class="books">
+  <div class="book">
+    <h3>Özüni Tapan</h3>
+    <p>Halil Jibranyň meşhur eseri.</p>
+    <a href="ozuni-tapan.html">Kitaby gör →</a>
+  </div>
 
-      <div class="book">
-        <h3>Teke han kim bolupdyr?</h3>
-        <p>Juma Hudaýgulyýewiň taryhy oçerki.</p>
-      </div>
+</section>
 
-      <div class="book">
-        <h3>Gaýgysyz Atabaý</h3>
-        <p>Türkmen taryhyna degişli eser.</p>
-      </div>
-
-      <div class="book">
-        <h3>Özüni Tapan</h3>
-        <p>Halil Jibranyň meşhur eseri.</p>
-      </div>
-
-    </section>
-
-  </main>
-
-  <footer>
+  </main>  <footer>
     <p>© 2026 Çarymuhammet. Ähli hukuklar goralýar.</p>
-  </footer>
-
-</body>
-</html>
+  </footer></body>
+      </html>
